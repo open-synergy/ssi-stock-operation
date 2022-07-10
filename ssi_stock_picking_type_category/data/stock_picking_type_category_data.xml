@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
+<odoo noupdate="1">
+<record id="picking_type_category_pr" model="stock.picking_type_category">
+    <field name="name">Purchase Receipt</field>
+    <field name="code">PR</field>
+</record>
+
+<record id="picking_type_category_do" model="stock.picking_type_category">
+    <field name="name">Delivery Order</field>
+    <field name="code">DO</field>
+</record>
+
+<record id="picking_type_category_int" model="stock.picking_type_category">
+    <field name="name">Internal Transfer</field>
+    <field name="code">INT</field>
+</record>
+
+<record id="picking_type_category_pick" model="stock.picking_type_category">
+    <field name="name">Pick</field>
+    <field name="code">PICK</field>
+</record>
+
+<record id="picking_type_category_pack" model="stock.picking_type_category">
+    <field name="name">Pack</field>
+    <field name="code">PACK</field>
+</record>
+
+</odoo>
