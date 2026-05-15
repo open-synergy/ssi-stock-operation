@@ -14,7 +14,11 @@ Stock Operation
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[ssi_stock_picking_type_category](ssi_stock_picking_type_category/) | 14.0.1.0.0 |  | Stock Operation Picking Type Category
 
 [//]: # (end addons)
 
